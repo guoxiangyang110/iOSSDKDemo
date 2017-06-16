@@ -10,11 +10,11 @@
 		EBB1534C1EF2513D00C42F58 /* MySDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB153421EF2513D00C42F58 /* MySDK.framework */; };
 		EBB153511EF2513D00C42F58 /* MySDKTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB153501EF2513D00C42F58 /* MySDKTests.m */; };
 		EBB153531EF2513D00C42F58 /* MySDK.h in Headers */ = {isa = PBXBuildFile; fileRef = EBB153451EF2513D00C42F58 /* MySDK.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBB1535E1EF251FB00C42F58 /* FirstVC.h in Headers */ = {isa = PBXBuildFile; fileRef = EBB1535C1EF251FB00C42F58 /* FirstVC.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBB1535F1EF251FB00C42F58 /* FirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB1535D1EF251FB00C42F58 /* FirstVC.m */; };
-		EBB153621EF2520C00C42F58 /* SecondVC.h in Headers */ = {isa = PBXBuildFile; fileRef = EBB153601EF2520C00C42F58 /* SecondVC.h */; };
-		EBB153631EF2520C00C42F58 /* SecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EBB153611EF2520C00C42F58 /* SecondVC.m */; };
 		EBB1536C1EF25DC700C42F58 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EBB1536B1EF25DC700C42F58 /* UIKit.framework */; };
+		EBC1B7AC1EF39A6100D43743 /* SDKFirstVC.h in Headers */ = {isa = PBXBuildFile; fileRef = EBC1B7AA1EF39A6100D43743 /* SDKFirstVC.h */; };
+		EBC1B7AD1EF39A6100D43743 /* SDKFirstVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC1B7AB1EF39A6100D43743 /* SDKFirstVC.m */; };
+		EBC1B7B01EF39A7200D43743 /* SDKSecondVC.h in Headers */ = {isa = PBXBuildFile; fileRef = EBC1B7AE1EF39A7200D43743 /* SDKSecondVC.h */; };
+		EBC1B7B11EF39A7200D43743 /* SDKSecondVC.m in Sources */ = {isa = PBXBuildFile; fileRef = EBC1B7AF1EF39A7200D43743 /* SDKSecondVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,11 +34,11 @@
 		EBB1534B1EF2513D00C42F58 /* MySDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MySDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EBB153501EF2513D00C42F58 /* MySDKTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySDKTests.m; sourceTree = "<group>"; };
 		EBB153521EF2513D00C42F58 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		EBB1535C1EF251FB00C42F58 /* FirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstVC.h; sourceTree = "<group>"; };
-		EBB1535D1EF251FB00C42F58 /* FirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstVC.m; sourceTree = "<group>"; };
-		EBB153601EF2520C00C42F58 /* SecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondVC.h; sourceTree = "<group>"; };
-		EBB153611EF2520C00C42F58 /* SecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondVC.m; sourceTree = "<group>"; };
 		EBB1536B1EF25DC700C42F58 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		EBC1B7AA1EF39A6100D43743 /* SDKFirstVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKFirstVC.h; sourceTree = "<group>"; };
+		EBC1B7AB1EF39A6100D43743 /* SDKFirstVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKFirstVC.m; sourceTree = "<group>"; };
+		EBC1B7AE1EF39A7200D43743 /* SDKSecondVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKSecondVC.h; sourceTree = "<group>"; };
+		EBC1B7AF1EF39A7200D43743 /* SDKSecondVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKSecondVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,10 +85,10 @@
 			children = (
 				EBB153451EF2513D00C42F58 /* MySDK.h */,
 				EBB153461EF2513D00C42F58 /* Info.plist */,
-				EBB1535C1EF251FB00C42F58 /* FirstVC.h */,
-				EBB1535D1EF251FB00C42F58 /* FirstVC.m */,
-				EBB153601EF2520C00C42F58 /* SecondVC.h */,
-				EBB153611EF2520C00C42F58 /* SecondVC.m */,
+				EBC1B7AA1EF39A6100D43743 /* SDKFirstVC.h */,
+				EBC1B7AB1EF39A6100D43743 /* SDKFirstVC.m */,
+				EBC1B7AE1EF39A7200D43743 /* SDKSecondVC.h */,
+				EBC1B7AF1EF39A7200D43743 /* SDKSecondVC.m */,
 			);
 			path = MySDK;
 			sourceTree = "<group>";
@@ -117,9 +117,9 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBB153621EF2520C00C42F58 /* SecondVC.h in Headers */,
-				EBB1535E1EF251FB00C42F58 /* FirstVC.h in Headers */,
+				EBC1B7AC1EF39A6100D43743 /* SDKFirstVC.h in Headers */,
 				EBB153531EF2513D00C42F58 /* MySDK.h in Headers */,
+				EBC1B7B01EF39A7200D43743 /* SDKSecondVC.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -221,8 +221,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBB153631EF2520C00C42F58 /* SecondVC.m in Sources */,
-				EBB1535F1EF251FB00C42F58 /* FirstVC.m in Sources */,
+				EBC1B7B11EF39A7200D43743 /* SDKSecondVC.m in Sources */,
+				EBC1B7AD1EF39A6100D43743 /* SDKFirstVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +435,7 @@
 				EBB153581EF2513D00C42F58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		EBB153591EF2513D00C42F58 /* Build configuration list for PBXNativeTarget "MySDKTests" */ = {
 			isa = XCConfigurationList;
@@ -443,6 +444,7 @@
 				EBB1535B1EF2513D00C42F58 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -1,5 +1,5 @@
 //
-//  FirstVC.h
+//  SDKSecondVC.h
 //  MySDK
 //
 //  Created by 郭向阳 on 2017/6/15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstVC : UIViewController
+@interface SDKSecondVC : UIViewController
 
 @end
